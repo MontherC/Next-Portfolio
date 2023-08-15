@@ -1,0 +1,48 @@
+.container{
+       justify-content: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    flex:1;
+    
+}
+
+.title{
+
+}
+
+.desc{
+
+}
+
+.author{
+    
+}
+
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imgContainer{
+    flex:1;
+    height: 300px;
+    position: relative;
+}
+
+.img{
+    object-fit: cover;
+}
+
+.content{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999;
+    text-align: justify;
+}
