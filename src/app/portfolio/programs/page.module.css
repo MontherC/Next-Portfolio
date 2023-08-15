@@ -1,0 +1,56 @@
+.container{
+    justify-content: space-around;
+     display: flex;
+    flex-direction: column;
+}
+
+.catTitle{
+    color: rgb(134, 201, 134)
+}
+
+.item{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.item:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+
+.title{
+    padding-bottom: 10px;
+}
+
+
+.desc{
+    padding-bottom: 10px;
+}
+
+.avatar{
+ object-fit: cover;
+ border-radius: 50%;
+}
+
+.imgContainer{
+ flex:1;
+ height: 500px;
+ position: relative;
+}
+
+.img{
+ object-fit: cover;
+}
+
+.content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999;
+    text-align: justify;
+}
